@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container  ">
+        <div class="row ">
+            <div class="col-md-12 ">
+                <div class="text-center">
+                    <h1 class="pt-5 fw-bolder ">Quote of the Day</h1>
+                <p class="fs-5 pt-3 pb-1">Press the button below to recieve a random quote!</p>
+                <button id="generate" class="quote-button my-3 fw-bold  mx-auto" onclick="randomQuote()">New Quote</button>
+                </div>
+               <div class="bg-white text-center w-50 my-5 mx-auto border rounded-4 head ">
+                
+                    <p id="quotes" class="p-3 fs-3 text-dark mx-3 justify-content-end" ></p>
+                    <p id="author" class="px-5 fs-5 text-dark text-end"></p>
+
+                    
+               </div>
+               
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
